@@ -56,6 +56,13 @@ main{
     text-align: center;
     background-color: #849486;
 }
+.mainProductos{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #849486;
+    margin: 0px auto;
+}
 main table {
     margin-top: 30px;
     margin-left: auto;
@@ -77,8 +84,29 @@ main table td, th {
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;   
+}
+h2{
+    color: black;
+    text-align: center;
+}
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: lightblue;
+    float: left;
+    width: 270px;
+}
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+div.galeria:hover{
+    border: 2px solid lightcoral;
+    transform: rotate(-1deg);
+}
+div.pie{
+    text-align: center;
+    padding: 10px;
 }
 
 .footer {
